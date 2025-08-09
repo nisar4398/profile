@@ -63,27 +63,63 @@
             });
 
             // --- AI Chatbot SnailBot Functionality ---
-            const portfolioData = `
-                Portfolio Owner: Nisar Khan
-                Role: Video Editor | Specialist | Passionate Creator
-                About: A passionate video editor and creative specialist with expertise in transforming raw footage into compelling visual stories. 5+ years of experience in editing software and techniques. Specializes in commercials, documentaries, and social media content. Combines creativity with technical precision.
-                Location: Peshawar, Pakistan
-                Skills:
-                - Adobe Premiere Pro (95%)
-                - After Effects (90%)
-                - DaVinci Resolve (85%)
-                - Color Grading (90%)
-                - Sound Design (80%)
-                - Storytelling (95%)
-                Experience:
-                - Senior Video Editor at Creative Solutions Inc. (2022-Present): Led a team, increased client engagement by 20%, specialized in high-end post-production.
-                - Video Editor at Digital Storytellers LLC (2019-2022): Managed all projects, collaborated with clients, experienced in motion graphics and VFX.
-                - Junior Editor at Media Hub (2017-2019): Assisted with editing, asset management, and developed foundational skills.
-                Education:
-                - Bachelor's in Communication Studies from University of Peshawar (2013-2017)
-                - Advanced Post-Production Certificate from Online Media Academy (2018)
-                - Professional DaVinci Resolve Training from DaVinci Certified (2023)
-            `;
+           const portfolioData = `
+Portfolio Owner: Nisar Khan
+
+Role:
+🎬 Video Editor | 🎨 Creative Specialist | 💻 Website Developer | 📈 Marketing Enthusiast
+
+About:
+I’m Nisar Khan, a passionate and versatile creative professional with a proven ability to turn ideas into stunning visuals and functional websites. With over 5 years of experience in professional video editing and an expanding portfolio in website design & development, I combine artistic vision with technical mastery to help brands stand out.
+
+Services & Specializations:
+- Professional Video Editing for Social Media, Commercials, Documentaries, and Cinematic Projects.
+- Motion Graphics, VFX, and Storytelling.
+- Website Development (HTML, CSS, JavaScript, Responsive Design).
+- Social Media Marketing Strategies to boost engagement and brand reach.
+- Complete Post-Production Solutions: Color Grading, Sound Design, and Creative Direction.
+
+Location:
+📍 Peshawar, Pakistan
+
+Skills & Proficiency:
+- Adobe Premiere Pro (95%)
+- Adobe After Effects (90%)
+- DaVinci Resolve (85%)
+- Color Grading & Correction (90%)
+- Sound Design & Mixing (80%)
+- Storytelling & Script Editing (95%)
+- Website Development (HTML/CSS/JS) (85%)
+- Responsive Web Design (80%)
+- SEO & Social Media Marketing (85%)
+
+Experience:
+- Senior Video Editor | Creative Solutions Inc. (2022–Present) — Led a creative team, improved client engagement by 20%, specialized in high-end post-production.
+- Video Editor | Digital Storytellers LLC (2019–2022) — Managed client projects from start to finish, delivered visually compelling and brand-aligned content.
+- Junior Editor | Media Hub (2017–2019) — Assisted senior editors, managed media assets, and built strong foundational skills in editing.
+
+Education & Training:
+- Bachelor's in Communication Studies | University of Peshawar (2013–2017)
+- Advanced Post-Production Certificate | Online Media Academy (2018)
+- Professional DaVinci Resolve Training | DaVinci Certified (2023)
+
+Contact Information:
+📧 Email: nisar.khan@example.com
+📞 Phone: +92 348 9174398
+💬 WhatsApp: +92 348 9174398
+
+Fun Facts:
+- I approach every project as if it’s my own brand’s story.
+- My mission is to make clients say “WOW” at first sight.
+- I’m open to side jobs, freelance gigs, and long-term collaborations.
+
+Ideal For:
+✅ Businesses seeking professional video editing that converts.
+✅ Brands in need of an engaging and responsive website.
+✅ Clients wanting a creative partner who understands both design and marketing.
+
+`;
+
 
             const chatbotBtn = document.getElementById('chatbot-btn');
             const chatbotWindow = document.getElementById('chatbot-window');
