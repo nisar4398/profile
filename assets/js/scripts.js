@@ -136,7 +136,7 @@
                 `;
 
                 try {
-                    const apiKey = "";
+                    const apiKey = "AIzaSyAhOs2qEO-NZlwOE1k3PR0Kb-p8UjnSIyE";
                     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
                     
                     const chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
